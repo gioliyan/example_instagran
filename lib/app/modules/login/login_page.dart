@@ -93,27 +93,6 @@ class LoginPageState extends State<LoginPage> {
                       onPressed: () => openHomePage(),
                     ),
                     const SizedBox(height: 15),
-                    UsernameTextbox(
-                      key: const Key('login_page_username_textbox'),
-                      width: width,
-                      checkInputNotNull: checkInputNotNull,
-                      usernameController: usernameController,
-                    ),
-                    const SizedBox(height: 10),
-                    PasswordTextbox(
-                      key: const Key('login_page_password_textbox'),
-                      width: width,
-                      checkInputNotNull: checkInputNotNull,
-                      passwordController: passwordController,
-                    ),
-                    const SizedBox(height: 10),
-                    LoginButton(
-                      key: const Key('login_page_login_button'),
-                      width: width,
-                      inputTextNotNull: inputTextNotNull,
-                      onPressed: () => openHomePage(),
-                    ),
-                    const SizedBox(height: 15),
                     ForgotAccess(
                       key: const Key('login_page_forgot_access'),
                       width: width,
